@@ -11,15 +11,24 @@
 	<form method="post">
         <label for="name">Name</label>
 		<input type="text" name="name" id="name" required><br/><br/>
+		
 		<label for="email">Email</label>
 		<input type="email" name="email" id="email" required><br/><br/>
-		<p>Gender</p>
+		
+		 <label>Gender</label>
+		 
 		<label for="radiomale">Male</label>
-		<input type="radio" name="radio" id="radiomale" required><br><br>
+		<input type="radio" name="radio" id="radiomale" required> 
+		
 		<label for="radiofemale">Female</label>
-		<input type="radio" name="radio" id="radiofemale" required><br><br>
+		<input type="radio" name="radio" id="radiofemale" required>
+
+		<label for="others">Others</label>
+		<input type="radio" name="other" id="others" required><br><br>
+		
         <label for="cars">Car Brands</label>
 		<select id="cars" name="cars">
+			<option value="select">Select Brands</option>
 			<option value="BMW">BMW</option>
 			<option value="Audi">Audi</option>
 			<option value="Mercedez">Mercedez</option>
@@ -28,7 +37,7 @@
 			<br>
 
             <label for="carage">Car Age</label>
-			<input type="number" name="age" id="carage" required>
+			<input type="number" name="carage" id="carage" required>
 			<br>
 			<br>
 			<label for="dop">Date of Purchase(dop)</label>
